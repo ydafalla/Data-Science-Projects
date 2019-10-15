@@ -19,3 +19,7 @@ The data are contained in the files links.csv, movies.csv, ratings.csv and tags.
 ## Approach:
 
 This notebook is a movie recommendation model using K-means clustering (to recommend similar movies to the user). The two features extracted from the dataset include: Average Movie Rating and Tags.
+
+## Discussion:
+
+K-means clustering was used to recommend similar movies to users. The clustering was based on the Average Movie Ratings and Tags.
