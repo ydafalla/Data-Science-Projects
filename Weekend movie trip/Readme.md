@@ -6,7 +6,8 @@ Data Clustering Project
 
 WEEKEND MOVIE TRIP
 
-Introduction:
+## Introduction:
+
 The project is about building a clustering model to determine similar moves  to recommend using the ratings and tags by other users as features.
 
 The data was obatined from the following link:
@@ -15,5 +16,6 @@ Data Source: https://grouplens.org/datasets/movielens/ small data set
 
 The data are contained in the files links.csv, movies.csv, ratings.csv and tags.csv.
 
-Approach:
+## Approach:
+
 This notebook is a movie recommendation model using K-means clustering (to recommend similar movies to the user). The two features extracted from the dataset include: Average Movie Rating and Tags.
