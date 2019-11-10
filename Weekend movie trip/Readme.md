@@ -33,6 +33,6 @@ There is almost an identical cluster and two of the k-means clusters can be comb
 
 ## Comparing DBSCAN with Kmeans
 
-![comparison](/comparison.PNG)
+![comparison](Data/comparison.PNG)
 
 
