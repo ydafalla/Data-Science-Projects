@@ -32,10 +32,6 @@ The other approach the was used is DBSCAN. We noticed that there is an overlap b
 There is almost an identical cluster and two of the k-means clusters can be combined to get the DBSCAN cluster. Another two clusters can also be combined to get the other kmeans cluster.
 
 ## Comparing DBSCAN with Kmeans
-<<<<<<< HEAD
-=======
-
->>>>>>> b5167765e3be63a4444a29192e85a145a4868af7
 ![comparison](Data/comparison.PNG)
 
 
