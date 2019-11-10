@@ -16,43 +16,30 @@ The data contains one csv file "Historical Product Demand.csv".
 
 ## Approach:
 
-### 1. Gradient Boosting
-The basic approach is to use linear regression in order to predict the scores using other column features.
-The columns used for building the linear regression model are:
-1. spi1
-2. spi2 
-3. prob1 
-4. prob2 
-5. importance1
-6. importance2
-7. proj_score1
-8. proj_score2
-9. off_team1
-10. off_team2
-The mean absolute error, mean square error and the root squared error was calculated for the linear regression model.
+### 1. ARIMA
+The basic approach is to apply the most commonly used method for time-series forecasting known as ARIMA. ARIMA stands for Autoregressive Integrated Moving Average.
+ARIMA models are denoted with the notation ARIMA(p, d, q). These three parameters account for seasonality, trend, and noise in data. 
+
 
 ### 2.Fbprophet
-The basic approach is to use a random forest model in order to predict the scores using other column features.
-The columns used for building the linear regression model are:
-1. spi1
-2. spi2 
-3. prob1 
-4. prob2 
-5. importance1
-6. importance2
-7. proj_score1
-8. proj_score2
-9. off_team1
-10. off_team2
-The accuaracy of the model was calculated
-
+Fbprophet implements a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well. Fbprophet was applied to one of the products to forecast its demand.
 
 
 ## Discussion:
-A linear regression model was built. The model predicts the scores of teams competing in a soccer game. 
-For each score the Mean Absolute Error, Mean Squared Error and the Root Mean Squared Error was calculated.
-The linear regression is used for predicting of continuous values and not discrete values so it might be problematic if used to predict the scores which are considered discrete values.
-For this reason i decided to use one other models the random forest. It may be more appropriately used for predicting categorical data.
+#### ARIMA
+Arima was used to predict the order demand
 
+The Mean Squared Error of our forecasts was 9.23
+
+The Root Mean Squared Error of our forecasts was 3.04
+
+#### Fbprophet
+After using the fbprophet time series forecasting model for Product_1295 following observations can be made:
+
+Demand for this product is increasing from 2012 to 2018
+
+As for the yearly trend, there is a maximum increase in demand from March to July
+
+For the weekly trend, demand is highest on wedensday and lowest on sunday
 
 
