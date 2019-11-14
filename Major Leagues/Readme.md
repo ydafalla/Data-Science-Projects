@@ -51,8 +51,6 @@ The accuaracy of the model was calculated
 ## Discussion:
 A linear regression model was built. The model predicts the scores of teams competing in a soccer game. 
 For each score the Mean Absolute Error, Mean Squared Error and the Root Mean Squared Error was calculated.
-The linear regression is used for predicting of continuous values and not discrete values so it might be problematic if used to predict the scores which are considered discrete values.
-For this reason i decided to use one other models the random forest. It may be more appropriately used for predicting categorical data.
-
+The accuracy of the random forest model was calculated.
 
 
