@@ -15,36 +15,20 @@ https://github.com/fivethirtyeight/data/tree/master/soccer-spi
 The data are contained in the files spi_global_rankings.csv, spi_global_rankings_intl.csv, spi_matches.csv.
 
 ## Approach:
+Exploratory data analysis and feature engineering were first performed before building two regression models. The regression models built were linear regression and random forest.
 
 ### 1. Linear Regression
 The basic approach is to use linear regression in order to predict the scores using other column features.
-The columns used for building the linear regression model are:
-1. spi1
-2. spi2 
-3. prob1 
-4. prob2 
-5. importance1
-6. importance2
-7. proj_score1
-8. proj_score2
-9. off_team1
-10. off_team2
+The columns used for building the linear regression model are: (spi1, spi2, prob1 , prob2 , importance1, importance2, proj_score1, proj_score2, off_team1, off_team2)
+
 The mean absolute error, mean square error and the root squared error was calculated for the linear regression model.
+![Score1 Actual vs Predicted](Pictures/score1.png)
+![Score2 Actual vs Predicted](Pictures/score2.png)
 
 ### 2. Ramdom Forest
 The basic approach is to use a random forest model in order to predict the scores using other column features.
-The columns used for building the linear regression model are:
-1. spi1
-2. spi2 
-3. prob1 
-4. prob2 
-5. importance1
-6. importance2
-7. proj_score1
-8. proj_score2
-9. off_team1
-10. off_team2
-The accuaracy of the model was calculated
+The columns used for building the linear regression model are: (spi1, spi2, prob1 , prob2 , importance1, importance2, proj_score1, proj_score2, off_team1, off_team2)
+The accuaracy of the model was calculated and was around 33%.
 
 
 
