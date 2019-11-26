@@ -22,7 +22,11 @@ The basic approach is to use linear regression in order to predict the scores us
 The columns used for building the linear regression model are: (spi1, spi2, prob1 , prob2 , importance1, importance2, proj_score1, proj_score2, off_team1, off_team2)
 
 The mean absolute error, mean square error and the root squared error was calculated for the linear regression model.
+
+### Score1 Accuracy
 ![Score1 Actual vs Predicted](Pictures/score1.png)
+
+### Score2 Accuracy
 ![Score2 Actual vs Predicted](Pictures/score2.png)
 
 ### 2. Ramdom Forest
