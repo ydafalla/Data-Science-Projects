@@ -36,7 +36,7 @@ The Root Mean Squared Error of our forecasts was 3.04
 
 #### Fbprophet
 After using the fbprophet time series forecasting model for Product_1295 following observations can be made:
-![Demand for Product_1295](Pictures/pr_1295.PNG)
+![Demand for Product_1295](Pictures/1295.PNG)
 
 Demand for this product is increasing from 2012 to 2018
 
