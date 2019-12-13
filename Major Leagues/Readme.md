@@ -18,7 +18,7 @@ The data are contained in the files spi_global_rankings.csv, spi_global_rankings
 Exploratory data analysis and feature engineering were first performed before building two regression models. The regression models built were linear regression, random forest and logisitic regression.
 
 The correlation matrix was obtained in order to find out the correlation between features.
-![Correlation Matrix](Pictures/correlation_matrix.png)
+![Correlation Matrix](Pictures/correlation_matrix.PNG)
 
 ### 1. Linear Regression
 The basic approach is to use linear regression in order to predict the scores using other column features.
