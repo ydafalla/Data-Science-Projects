@@ -19,10 +19,11 @@ The data contains one csv file "Historical Product Demand.csv".
 ### 1. ARIMA
 The basic approach is to apply the most commonly used method for time-series forecasting known as ARIMA. ARIMA stands for Autoregressive Integrated Moving Average.
 ARIMA models are denoted with the notation ARIMA(p, d, q). These three parameters account for seasonality, trend, and noise in data. 
-
+![Time Series Decomposition](Pictures/visual.PNG)
 
 ### 2.Fbprophet
 Fbprophet implements a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well. Fbprophet was applied to one of the products to forecast its demand.
+
 
 
 ## Discussion:
@@ -35,6 +36,7 @@ The Root Mean Squared Error of our forecasts was 3.04
 
 #### Fbprophet
 After using the fbprophet time series forecasting model for Product_1295 following observations can be made:
+![Demand for Product_1295](Pictures/pr_1295.PNG)
 
 Demand for this product is increasing from 2012 to 2018
 

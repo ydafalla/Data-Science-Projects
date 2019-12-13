@@ -18,7 +18,7 @@ The data are contained in the files spi_global_rankings.csv, spi_global_rankings
 Exploratory data analysis and feature engineering were first performed before building two regression models. The regression models built were linear regression, random forest and logisitic regression.
 
 The correlation matrix was obtained in order to find out the correlation between features.
-![Correlation Matrix](Pictures/correlation_matrix.png)
+![Correlation Matrix](Pictures/correlation_matrix.PNG)
 
 ### 1. Linear Regression
 The basic approach is to use linear regression in order to predict the scores using other column features.
@@ -46,17 +46,17 @@ A linear regression model, random forest and logistic regression models were bui
 For each score the Mean Absolute Error, Mean Squared Error and the Root Mean Squared Error was calculated.
 Below is the summary for the mean square errors for different models:
 #### 1. Linear Regression
-Mean Squared Error for score1: 1.397
-Mean Squared Error for score2: 1.214
+* Mean Squared Error for score1: 1.397
+* Mean Squared Error for score2: 1.214
 
 #### 2. Random Forest
-Mean Squared Error for score1: 1.617 
-Mean Squared Error for score2: 1.285
+* Mean Squared Error for score1: 1.617 
+* Mean Squared Error for score2: 1.285
 
 #### 3. Logistic Regression
-Mean Squared Error for score1: 1.836
-Mean Squared Error for score2: 1.495
+* Mean Squared Error for score1: 1.836
+* Mean Squared Error for score2: 1.495
 
-The best model was the linear regression model.
+#### The best model was the linear regression model.
 
 
