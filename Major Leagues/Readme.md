@@ -46,17 +46,17 @@ A linear regression model, random forest and logistic regression models were bui
 For each score the Mean Absolute Error, Mean Squared Error and the Root Mean Squared Error was calculated.
 Below is the summary for the mean square errors for different models:
 #### 1. Linear Regression
-Mean Squared Error for score1: 1.397
-Mean Squared Error for score2: 1.214
+* Mean Squared Error for score1: 1.397
+* Mean Squared Error for score2: 1.214
 
 #### 2. Random Forest
-Mean Squared Error for score1: 1.617 
-Mean Squared Error for score2: 1.285
+* Mean Squared Error for score1: 1.617 
+* Mean Squared Error for score2: 1.285
 
 #### 3. Logistic Regression
-Mean Squared Error for score1: 1.836
-Mean Squared Error for score2: 1.495
+* Mean Squared Error for score1: 1.836
+* Mean Squared Error for score2: 1.495
 
-The best model was the linear regression model.
+#### The best model was the linear regression model.
 
 
